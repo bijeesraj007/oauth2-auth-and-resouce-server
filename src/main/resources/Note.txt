@@ -1,0 +1,10 @@
+
+
+In this project the Authorization Server & Resource Server both are in the same project.
+In somecases, the resource server ppl use from Google, GitHub or any such 3rd party provider.
+
+
+1. To Access UserAPI the user needs to obtain a token by calling /oauth/token url  (which is a standard way)
+2. Which user can access API ? the users who have their client_id and client_secret.
+   Which is hardcoded in AuthServerConfig.java (this can be externalized or use a DB)
+3.how_to_obtain_client_access_token.jpg check this file.
