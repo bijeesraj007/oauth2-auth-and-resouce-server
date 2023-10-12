@@ -1,7 +1,7 @@
 
 
-In this project the Authorization Server & Resource Server both are in the same project.
-In somecases, the resource server ppl use from Google, GitHub or any such 3rd party provider.
+In this project the Authorization Server & Resource Server (API) both are in the same project.
+In some cases, the resource server (Api Server like PRODUCT-API) would be in a different server. In that case the way to authenticate token might invoke additional work. (there are few methods)
 
 
 1. To Access UserAPI the user needs to obtain a token by calling /oauth/token url  (which is a standard way)
